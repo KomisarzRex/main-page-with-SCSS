@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper button {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 2px solid red;
+  padding: 5px 20px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  background-color: Green;
+}/*# sourceMappingURL=style.css.map */

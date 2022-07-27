@@ -1,0 +1,11 @@
+@mixin button ($border:0,$borderinfo:none,$topbottom:0,$leftright:0,$fontS,$bgC:transparent) {
+    border-top-left-radius: $border;
+    border-top-right-radius: $border;
+    border-bottom-left-radius: $border;
+    border-bottom-right-radius: $border;
+    border:$borderinfo;
+    padding: $topbottom $leftright;
+    font-weight: 700;
+    font-size: $fontS;
+    background-color: $bgC;
+}

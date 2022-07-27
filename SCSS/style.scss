@@ -1,0 +1,9 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+@import '_resets.scss';
+$colorP:rgb(236, 150, 37);
+.wrapper{
+    button{
+        @include button(25px,2px solid red,5px,20px,1.2rem,Green);
+    }
+}
